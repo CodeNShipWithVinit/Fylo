@@ -33,12 +33,31 @@ ul{
 }
 .intro{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 500px;
   margin: 20px;
 }
-.intro img{
+.introImg{
   width: 100%;
   height: auto;
+}
+.introBgMobile{
+  position: relative;
+  z-index: -999;
+  bottom: 40px;
+  width: 130vw;
+  object-fit: cover;
+}
+.introText{
+  position: relative;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: x-small;
+  color: white;
+  bottom: 160px;
+}
+.introText p{
+  font-size: small;
 }
