@@ -2,6 +2,10 @@ import './App.css'
 import logo from "../src/assets/logo.svg"
 import intro from "../src/assets/illustration-intro.png";
 import introBgMobile from "../src/assets/bg-curvy-mobile.svg";
+import IconAccessAnywhere from "../src/assets/icon-access-anywhere.svg"
+import IconSecurity from "../src/assets/icon-security.svg"
+import IconCollaboration from "../src/assets/icon-collaboration.svg"
+import IconAnyFile from "../src/assets/icon-any-file.svg"
 
 function App() {
   
@@ -36,8 +40,53 @@ function App() {
              <span>you need,share and collaborate with friends,</span><br />
              <span>family and co-workers.</span>
           </p>
+          <button className='started'>Get Started</button>
         </div>
-        
+      </section>
+
+      <section className='services'>
+          <div className='accessAnywhere'>
+              <img src={IconAccessAnywhere} alt="IconAccessAnywhere" />
+              <h4>Access your files,anywhere</h4>
+              <p>
+                <span>The ability to use a smartphone,tablet,or</span><br />
+                <span>computer to access your account means your</span><br />
+                <span>files follow you everywhere</span>
+              </p>
+          </div>
+
+          <div className='accessAnywhere'>
+              <img src={IconSecurity} alt="IconSecurity" />
+              <h4>Security you can trust</h4>
+              <p>
+                <span>2-factor authentication and user-controlled</span><br />
+                <span>encryption are just a couple of the security</span><br />
+                <span>features we allow to help secure your files.</span>
+              </p>
+          </div>
+
+          <div className='accessAnywhere'>
+              <img src={IconCollaboration} alt="IconCollaboration" />
+              <h4>Real-time collaboration</h4>
+              <p>
+                <span>Securely share files and folders with friends,</span><br />
+                <span>family and colleagues with live collaboration.No</span><br />
+                <span>email attatchments required</span>
+              </p>
+          </div>
+
+          <div className='accessAnywhere'>
+              <img src={IconAnyFile} alt="IconAnyFile" />
+              <h4>Store any type of file</h4>
+              <p>
+                <span>Whether you're sharing holidays photos or work</span><br />
+                <span>documents,Fylo has you covered allowing for all</span><br />
+                <span>file types to be securely stored and shared.</span>
+              </p>
+          </div>
+
+          
+
       </section>
      
     </div>

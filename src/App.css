@@ -3,6 +3,9 @@
 
 body{
   background-color: hsl(217, 28%, 15%);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 .header{
   display: flex;
@@ -47,7 +50,7 @@ ul{
   position: relative;
   z-index: -999;
   bottom: 40px;
-  width: 130vw;
+  width: 120vw;
   object-fit: cover;
 }
 .introText{
@@ -57,7 +60,44 @@ ul{
   font-size: x-small;
   color: white;
   bottom: 160px;
+  margin: 0;
 }
 .introText p{
   font-size: small;
+}
+.started{
+  background-color: hsl(176, 68%, 64%);
+  width: 70%;
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Raleway";
+  color: white;
+  position: relative;
+  bottom: 140px;
+  text-align: center;
+  /* font-size: small; */
+}
+.accessAnywhere{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.accessAnywhere h4{
+  margin-bottom: 5px;
+}
+.accessAnywhere p{
+  margin-top: 5px;
 }
