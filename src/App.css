@@ -101,3 +101,22 @@ ul{
 .accessAnywhere p{
   margin-top: 5px;
 }
+.stayProductive{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  font-family: "Raleway";
+  color: white;
+  position: relative;
+  bottom: 40px;
+}
+.stayProductive p{
+  font-size: small;
+  margin-top: 0;
+}
+.stayProductive img{
+  width: 90%;
+  height: auto;
+}
