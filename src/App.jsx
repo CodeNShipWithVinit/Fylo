@@ -7,6 +7,7 @@ import IconSecurity from "../src/assets/icon-security.svg";
 import IconCollaboration from "../src/assets/icon-collaboration.svg";
 import IconAnyFile from "../src/assets/icon-any-file.svg";
 import StayProductive from "../src/assets/illustration-stay-productive.png";
+import arrowSvg from "../src/assets/icon-arrow.svg"
 
 function App() {
   return (
@@ -123,6 +124,17 @@ function App() {
             <span>email attatchments required.</span>
           </p>
         </div>
+        <div className="seeFylo">
+              <div className="FyloText">
+                  <p>See how Fylo works</p>
+                  <img src={arrowSvg} alt="arrowSvg" />
+              </div>
+              <div className="Line">
+
+              </div>
+        </div>
+
+       
       </section>
     </div>
   );

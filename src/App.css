@@ -120,3 +120,35 @@ ul{
   width: 90%;
   height: auto;
 }
+.seeFylo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 45px;
+  right: 65px;
+}
+.FyloText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway";
+  color: white;
+  gap: 10px;
+  width: 100%;
+  font-size: small;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.FyloText img{
+  width: 20px;
+  height: 20px;
+}
+.Line{
+  background-color: hsl(176, 68%, 64%);
+  height: 2px;
+  width: 155px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
