@@ -130,7 +130,7 @@ function App() {
                   <img src={arrowSvg} alt="arrowSvg" />
               </div>
               <div className="Line">
-
+              console.log("Debugging");
               </div>
         </div>
 
