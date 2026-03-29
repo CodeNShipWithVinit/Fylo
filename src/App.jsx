@@ -128,6 +128,7 @@ function App() {
               <div className="FyloText">
                   <p>See how Fylo works</p>
                   <img src={arrowSvg} alt="arrowSvg" />
+                  console.log("Debugging");
               </div>
               <div className="Line">
               </div>
